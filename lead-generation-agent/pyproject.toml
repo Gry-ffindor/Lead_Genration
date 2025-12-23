@@ -1,0 +1,30 @@
+[project]
+name = "lead-generation-agent"
+version = "0.1.0"
+description = "AI Lead Generation Agent using LangGraph (Zero Cost)"
+authors = [{name = "User", email = "user@example.com"}]
+requires-python = ">=3.9"
+dependencies = [
+    "langgraph>=0.0.10",
+    "langchain>=0.1.0",
+    "langchain-groq>=0.0.1",
+    "langchain-community>=0.0.10",
+    "ddgs>=4.0.0",
+    "playwright>=1.40.0",
+    "beautifulsoup4>=4.12.0",
+    "python-dotenv>=1.0.0",
+    "loguru>=0.7.0",
+    "pydantic>=2.0.0",
+    "aiohttp>=3.9.0",
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+addopts = "-ra -q"
+testpaths = ["tests"]

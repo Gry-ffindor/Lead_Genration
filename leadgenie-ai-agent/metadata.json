@@ -1,0 +1,5 @@
+{
+  "name": "LeadGenie AI Agent",
+  "description": "An intelligent lead research assistant that uses real-time search to find, qualify, and prepare personalized pitches for sales prospects based on your Ideal Customer Profile (ICP).",
+  "requestFramePermissions": []
+}
